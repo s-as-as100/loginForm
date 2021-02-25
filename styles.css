@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  width: 100vw;
+ 
+  font-family: "Open Sans", sans-serif;
+  background:#000803ea;
+  
+   
+}
+
+
+h1 {
+   
+    color: #fff; 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 2rem 0;
+    
+  
+}
+img {
+   height: 10rem;
+   width: auto;
+   margin-left: 8rem;
+   
+}
+input {
+  width: 30rem;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.4rem;
+  box-shadow: inset 0 -0.5rem 4.5rem rgba(100, 100, 100, 0.2),
+    0 0.1rem 0.1rem rgba(255, 255, 255, 0.2);
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+input:focus {
+  box-shadow: inset 0 --0.5rem 4.5rem rgba(100, 100, 100, 0.4),
+    0 0.1rem 0.1rem rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15rem 0 0 -15rem;
+    width:30rem;
+    height:30rem;
+    
+ 
+     
+}
+
+
+.but{
+    cursor: pointer;
+    background: #2c4f58;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 0;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+    .but:hover {
+      background: #369cb8;
+    } 
